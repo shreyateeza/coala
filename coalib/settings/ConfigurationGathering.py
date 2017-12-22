@@ -266,7 +266,7 @@ def load_configuration(arg_list,
             save = True
 
         coafile_sections = load_config_file(config,
-                                            silent=save or silent)
+                                            silent=True)
 
         sections = merge_section_dicts(base_sections, user_sections)
 
